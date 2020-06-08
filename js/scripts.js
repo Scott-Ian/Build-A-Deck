@@ -1,5 +1,5 @@
 $("document").ready(function() {
-  $("button#submitButton").submit(function(event) {
+  $("button#submitButton").click(function(event) {
     event.preventDefault();
 
     const suits =["clubs", "diamonds", "hearts", "spades"];
